@@ -8,21 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="yfr-C8-x3l">
-            <objects>
-                <viewController id="SYC-bF-wJg" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="on4-B1-THD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="eCP-UF-mns"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Re4-Zh-NSX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-738" y="80"/>
-        </scene>
         <!--Daily Challenge View Controller-->
         <scene sceneID="bFh-zS-Gb2">
             <objects>
@@ -244,6 +229,13 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dfb-X1-OMD">
+                                <rect key="frame" x="205" y="381" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9Kw-nA-bts"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -520,11 +512,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ESP-2G-20D"/>
-        <segue reference="lBb-0l-0Sr"/>
-        <segue reference="N7M-Ya-An6"/>
-        <segue reference="BK7-1K-Omx"/>
-        <segue reference="kar-C9-Thb"/>
+        <segue reference="cYl-ak-GJn"/>
+        <segue reference="oIl-ub-Fwk"/>
+        <segue reference="anF-8B-nVn"/>
+        <segue reference="UbZ-eh-z8E"/>
+        <segue reference="waJ-xb-PCk"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="GG_1" width="1080" height="1080"/>
