@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A88435A926A896FD009F35E7 /* DailyChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88435A826A896FD009F35E7 /* DailyChallengeViewController.swift */; };
+		A88435AB26A89B41009F35E7 /* quizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88435AA26A89B41009F35E7 /* quizViewController.swift */; };
+		A88435AD26A89DD8009F35E7 /* moreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88435AC26A89DD8009F35E7 /* moreInfoViewController.swift */; };
+		A88435AF26A8A081009F35E7 /* picGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88435AE26A8A081009F35E7 /* picGalleryViewController.swift */; };
 		A8D80BE326A7569B00A9EBBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D80BE226A7569B00A9EBBA /* AppDelegate.swift */; };
 		A8D80BE526A7569B00A9EBBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D80BE426A7569B00A9EBBA /* SceneDelegate.swift */; };
 		A8D80BE726A7569B00A9EBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D80BE626A7569B00A9EBBA /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A88435A826A896FD009F35E7 /* DailyChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeViewController.swift; sourceTree = "<group>"; };
+		A88435AA26A89B41009F35E7 /* quizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizViewController.swift; sourceTree = "<group>"; };
+		A88435AC26A89DD8009F35E7 /* moreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreInfoViewController.swift; sourceTree = "<group>"; };
+		A88435AE26A8A081009F35E7 /* picGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picGalleryViewController.swift; sourceTree = "<group>"; };
 		A8D80BDF26A7569B00A9EBBA /* Globally Green.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Globally Green.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D80BE226A7569B00A9EBBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8D80BE426A7569B00A9EBBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +69,10 @@
 				A8D80BE226A7569B00A9EBBA /* AppDelegate.swift */,
 				A8D80BE426A7569B00A9EBBA /* SceneDelegate.swift */,
 				A8D80BE626A7569B00A9EBBA /* ViewController.swift */,
+				A88435A826A896FD009F35E7 /* DailyChallengeViewController.swift */,
+				A88435AA26A89B41009F35E7 /* quizViewController.swift */,
+				A88435AC26A89DD8009F35E7 /* moreInfoViewController.swift */,
+				A88435AE26A8A081009F35E7 /* picGalleryViewController.swift */,
 				A8D80BE826A7569B00A9EBBA /* Main.storyboard */,
 				A8D80BEE26A7569C00A9EBBA /* Assets.xcassets */,
 				A8D80BF026A7569C00A9EBBA /* LaunchScreen.storyboard */,
@@ -142,8 +154,12 @@
 			files = (
 				A8D80BE726A7569B00A9EBBA /* ViewController.swift in Sources */,
 				A8D80BED26A7569B00A9EBBA /* Globally_Green.xcdatamodeld in Sources */,
+				A88435AD26A89DD8009F35E7 /* moreInfoViewController.swift in Sources */,
 				A8D80BE326A7569B00A9EBBA /* AppDelegate.swift in Sources */,
+				A88435AF26A8A081009F35E7 /* picGalleryViewController.swift in Sources */,
 				A8D80BE526A7569B00A9EBBA /* SceneDelegate.swift in Sources */,
+				A88435A926A896FD009F35E7 /* DailyChallengeViewController.swift in Sources */,
+				A88435AB26A89B41009F35E7 /* quizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

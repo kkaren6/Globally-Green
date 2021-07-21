@@ -23,16 +23,16 @@
             </objects>
             <point key="canvasLocation" x="-738" y="80"/>
         </scene>
-        <!--View Controller-->
+        <!--Daily Challenge View Controller-->
         <scene sceneID="bFh-zS-Gb2">
             <objects>
-                <viewController id="Si9-Eg-mSy" sceneMemberID="viewController">
+                <viewController id="Si9-Eg-mSy" customClass="DailyChallengeViewController" customModule="Globally_Green" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Oo-Bu-iUA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h9U-wS-yVO">
-                                <rect key="frame" x="117" y="136" width="180" height="80"/>
+                                <rect key="frame" x="117" y="215" width="180" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
@@ -47,7 +47,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apK-b2-yuw">
-                                <rect key="frame" x="83" y="278" width="249" height="18"/>
+                                <rect key="frame" x="83" y="355" width="249" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Select a category below">
@@ -61,9 +61,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kiz-BL-YjI">
-                                <rect key="frame" x="74" y="389" width="109" height="101"/>
+                                <rect key="frame" x="83" y="459" width="109" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.20596242437018911" green="0.3458440721649485" blue="0.17528994668106321" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.27284777160000001" green="0.29464554790000003" blue="0.2327575982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -77,9 +77,9 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1b1-vm-JhE">
-                                <rect key="frame" x="223" y="389" width="109" height="101"/>
+                                <rect key="frame" x="223" y="458" width="109" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.20596242440000001" green="0.34584407220000002" blue="0.1752899467" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.27284777160000001" green="0.29464554790000003" blue="0.2327575982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -92,21 +92,185 @@
                                     </attributedString>
                                 </state>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="582-sP-FT7">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGQ-Mz-CYO">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <color key="backgroundColor" red="0.33736509079999999" green="0.36665344239999997" blue="0.27723270649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="MGY-N3-u0U"/>
+                                        </constraints>
+                                        <state key="normal" title="DAILY CHALLENGE">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handleSelection:" destination="Si9-Eg-mSy" eventType="touchUpInside" id="w9k-1R-Cje"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1c-2I-Xi0">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="HOME">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pageTapped:" destination="Si9-Eg-mSy" eventType="touchUpInside" id="Krl-cw-fpg"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="anF-8B-nVn"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kd8-Je-yNy">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130251866" green="0.74883601641414144" blue="0.5918920397687859" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="PHOTO GALLERY">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pageTapped:" destination="Si9-Eg-mSy" eventType="touchUpInside" id="sFl-Ha-HcN"/>
+                                            <segue destination="c2J-Of-NeK" kind="show" id="oIl-ub-Fwk"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCO-6O-FPm">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130251866" green="0.74883601641414144" blue="0.5918920397687859" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="MORE INFORMATION">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pageTapped:" destination="Si9-Eg-mSy" eventType="touchUpInside" id="ltK-QZ-7Pf"/>
+                                            <segue destination="xgX-JY-8mU" kind="show" id="cYl-ak-GJn"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXe-6X-TvD">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130251866" green="0.74883601641414144" blue="0.5918920397687859" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="MINI QUIZ">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pageTapped:" destination="Si9-Eg-mSy" eventType="touchUpInside" id="7xa-J7-wMn"/>
+                                            <segue destination="dfp-UU-U7g" kind="show" id="UbZ-eh-z8E"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vl8-Vs-z9R"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="582-sP-FT7" firstAttribute="leading" secondItem="vl8-Vs-z9R" secondAttribute="leading" id="DVK-fm-3oz"/>
+                            <constraint firstItem="vl8-Vs-z9R" firstAttribute="trailing" secondItem="582-sP-FT7" secondAttribute="trailing" id="epo-3P-QIJ"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="mSe-gG-uAJ"/>
+                    <connections>
+                        <outletCollection property="pagesCollection" destination="kd8-Je-yNy" collectionClass="NSMutableArray" id="HTx-aB-cUP"/>
+                        <outletCollection property="pagesCollection" destination="nCO-6O-FPm" collectionClass="NSMutableArray" id="vvr-Tt-iQn"/>
+                        <outletCollection property="pagesCollection" destination="JXe-6X-TvD" collectionClass="NSMutableArray" id="6aI-92-taJ"/>
+                        <outletCollection property="pagesCollection" destination="v1c-2I-Xi0" collectionClass="NSMutableArray" id="zbM-HZ-2FT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PUS-DF-jnY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="95.652173913043484" y="-627.45535714285711"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="QCg-XU-Cci">
+            <objects>
+                <viewController id="dfp-UU-U7g" customClass="quizViewController" customModule="Globally_Green" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nwj-Vs-mqL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="d2P-sl-JXb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJT-2M-3KX">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <color key="backgroundColor" red="0.33736509079999999" green="0.36665344239999997" blue="0.27723270649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="wTF-RR-tYK"/>
+                                        </constraints>
+                                        <state key="normal" title="MINI QUIZ">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pageCollection2:" destination="dfp-UU-U7g" eventType="touchUpInside" id="FS9-Da-fbf"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXp-Bh-jKL">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="HOME">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="homeTapped:" destination="dfp-UU-U7g" eventType="touchUpInside" id="oKB-rc-xK6"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="2XZ-Pg-4nU"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgg-Ux-ncE">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="PHOTO GALLERY">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="homeTapped:" destination="dfp-UU-U7g" eventType="touchUpInside" id="nhL-n9-6hI"/>
+                                            <segue destination="c2J-Of-NeK" kind="show" id="C6H-Me-RwL"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Um3-rs-RTP">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="MORE INFORMATION">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="homeTapped:" destination="dfp-UU-U7g" eventType="touchUpInside" id="qSx-Vb-oBD"/>
+                                            <segue destination="xgX-JY-8mU" kind="show" id="5Ps-fP-9W3"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJ8-i4-9Vi">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="DAILY CHALLENGE">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="homeTapped:" destination="dfp-UU-U7g" eventType="touchUpInside" id="6ll-2C-nYf"/>
+                                            <segue destination="Si9-Eg-mSy" kind="show" id="TGr-Rh-Gff"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9Kw-nA-bts"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9Kw-nA-bts" firstAttribute="trailing" secondItem="d2P-sl-JXb" secondAttribute="trailing" id="aCi-Eu-9l7"/>
+                            <constraint firstItem="d2P-sl-JXb" firstAttribute="leading" secondItem="9Kw-nA-bts" secondAttribute="leading" id="ctO-z1-YSU"/>
+                            <constraint firstItem="d2P-sl-JXb" firstAttribute="top" secondItem="9Kw-nA-bts" secondAttribute="top" id="vVd-Ii-1sD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OWb-Hg-whb"/>
+                    <connections>
+                        <outletCollection property="pagesCollection2" destination="WXp-Bh-jKL" collectionClass="NSMutableArray" id="gCm-bu-Dn3"/>
+                        <outletCollection property="pagesCollection2" destination="Sgg-Ux-ncE" collectionClass="NSMutableArray" id="Z3b-n8-Tlz"/>
+                        <outletCollection property="pagesCollection2" destination="Um3-rs-RTP" collectionClass="NSMutableArray" id="WhV-G2-Tp0"/>
+                        <outletCollection property="pagesCollection2" destination="DJ8-i4-9Vi" collectionClass="NSMutableArray" id="rAc-xh-c5g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zx2-R5-vUS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="-602"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Globally_Green" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIk-ro-uR0">
@@ -126,6 +290,9 @@
                                 <rect key="frame" x="102" y="493" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Si9-Eg-mSy" kind="show" id="waJ-xb-PCk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qx2-30-u5f">
                                 <rect key="frame" x="228" y="446" width="121" height="121"/>
@@ -166,42 +333,199 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="tSL-v9-yWa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="95.652173913043484" y="79.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Pic Gallery View Controller-->
         <scene sceneID="pSv-DB-sbv">
             <objects>
-                <viewController id="c2J-Of-NeK" sceneMemberID="viewController">
+                <viewController id="c2J-Of-NeK" customClass="picGalleryViewController" customModule="Globally_Green" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nRg-Nf-eoR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="43t-iq-Obk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dm8-OJ-Vrp">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <color key="backgroundColor" red="0.33736509079999999" green="0.36665344239999997" blue="0.27723270649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="A5u-i9-kMr"/>
+                                        </constraints>
+                                        <state key="normal" title="PHOTO GALLERY">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handleSelection4:" destination="c2J-Of-NeK" eventType="touchUpInside" id="fA1-DP-2f5"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15c-wN-7yD">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="HOME">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="N7M-Ya-An6"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeD-Mm-dSx">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="DAILY CHALLENGE">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Si9-Eg-mSy" kind="show" id="kar-C9-Thb"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6Z-Y7-Bos">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="MORE INFORMATION">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="xgX-JY-8mU" kind="show" id="ESP-2G-20D"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nd-QQ-L7n">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="MINI QUIZ">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="miniQuizzTapped:" destination="c2J-Of-NeK" eventType="touchUpInside" id="6AQ-bB-NCk"/>
+                                            <segue destination="dfp-UU-U7g" kind="show" id="BK7-1K-Omx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="HIl-9o-f1F"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="43t-iq-Obk" firstAttribute="top" secondItem="HIl-9o-f1F" secondAttribute="top" id="0jD-uj-XYX"/>
+                            <constraint firstItem="43t-iq-Obk" firstAttribute="leading" secondItem="HIl-9o-f1F" secondAttribute="leading" id="7dZ-KN-IFJ"/>
+                            <constraint firstItem="HIl-9o-f1F" firstAttribute="trailing" secondItem="43t-iq-Obk" secondAttribute="trailing" id="93v-03-NOB"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="PGx-4K-k6X"/>
+                    <connections>
+                        <outletCollection property="pageCollection4" destination="15c-wN-7yD" collectionClass="NSMutableArray" id="U9j-bx-RAt"/>
+                        <outletCollection property="pageCollection4" destination="eeD-Mm-dSx" collectionClass="NSMutableArray" id="w5L-St-j5d"/>
+                        <outletCollection property="pageCollection4" destination="J6Z-Y7-Bos" collectionClass="NSMutableArray" id="Hg0-IZ-VuX"/>
+                        <outletCollection property="pageCollection4" destination="6nd-QQ-L7n" collectionClass="NSMutableArray" id="0kr-uH-spG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GSx-xI-6l3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="96" y="790"/>
         </scene>
-        <!--View Controller-->
+        <!--More Info View Controller-->
         <scene sceneID="cgZ-IV-HsC">
             <objects>
-                <viewController id="xgX-JY-8mU" sceneMemberID="viewController">
+                <viewController id="xgX-JY-8mU" customClass="moreInfoViewController" customModule="Globally_Green" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="odj-a6-NV3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="B7b-7L-Lcx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQ5-DE-iVp">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <color key="backgroundColor" red="0.33736509079999999" green="0.36665344239999997" blue="0.27723270649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Gfw-sX-crc"/>
+                                        </constraints>
+                                        <state key="normal" title="MORE INFORMATION">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handleSelection3:" destination="xgX-JY-8mU" eventType="touchUpInside" id="aLy-a4-e4P"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L44-MF-K3T">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="HOME">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="photoGalleryTapped:" destination="xgX-JY-8mU" eventType="touchUpInside" id="ecl-EY-QAg"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="UH4-Yv-KcJ"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnU-Iy-YLH">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="PHOTO GALLERY">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="photoGalleryTapped:" destination="xgX-JY-8mU" eventType="touchUpInside" id="KJy-CC-feQ"/>
+                                            <segue destination="c2J-Of-NeK" kind="show" id="lBb-0l-0Sr"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYG-uZ-1U5">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="DAILY CHALLENGE">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="photoGalleryTapped:" destination="xgX-JY-8mU" eventType="touchUpInside" id="OGS-te-1X8"/>
+                                            <segue destination="Si9-Eg-mSy" kind="show" id="hB3-la-JxM"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xyl-s6-mB4">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <color key="backgroundColor" red="0.69857287130000001" green="0.74883601639999997" blue="0.59189203980000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="MINI QUIZ">
+                                            <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="photoGalleryTapped:" destination="xgX-JY-8mU" eventType="touchUpInside" id="No9-zJ-fVQ"/>
+                                            <segue destination="dfp-UU-U7g" kind="show" id="kvd-nS-ulX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="kW4-wW-12m"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="B7b-7L-Lcx" firstAttribute="top" secondItem="kW4-wW-12m" secondAttribute="top" id="43X-cL-Bee"/>
+                            <constraint firstItem="B7b-7L-Lcx" firstAttribute="leading" secondItem="kW4-wW-12m" secondAttribute="leading" id="THI-lG-FKb"/>
+                            <constraint firstItem="kW4-wW-12m" firstAttribute="trailing" secondItem="B7b-7L-Lcx" secondAttribute="trailing" id="dWr-W6-b8w"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Ut2-2i-19H"/>
+                    <connections>
+                        <outletCollection property="pagesCollection3" destination="vnU-Iy-YLH" collectionClass="NSMutableArray" id="Akm-hH-KM2"/>
+                        <outletCollection property="pagesCollection3" destination="aYG-uZ-1U5" collectionClass="NSMutableArray" id="ER5-KN-1SM"/>
+                        <outletCollection property="pagesCollection3" destination="Xyl-s6-mB4" collectionClass="NSMutableArray" id="T8v-oF-rjm"/>
+                        <outletCollection property="pagesCollection3" destination="L44-MF-K3T" collectionClass="NSMutableArray" id="LXr-RN-g3S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EAh-0u-9FX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="901" y="80"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ESP-2G-20D"/>
+        <segue reference="lBb-0l-0Sr"/>
+        <segue reference="N7M-Ya-An6"/>
+        <segue reference="BK7-1K-Omx"/>
+        <segue reference="kar-C9-Thb"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="GG_1" width="1080" height="1080"/>
         <image name="GG_13" width="1080" height="1344"/>
@@ -209,6 +533,9 @@
         <image name="globe" width="678" height="679"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
