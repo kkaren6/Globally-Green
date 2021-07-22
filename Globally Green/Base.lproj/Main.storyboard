@@ -531,11 +531,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cYl-ak-GJn"/>
+        <segue reference="ESP-2G-20D"/>
         <segue reference="oIl-ub-Fwk"/>
-        <segue reference="anF-8B-nVn"/>
-        <segue reference="UbZ-eh-z8E"/>
-        <segue reference="waJ-xb-PCk"/>
+        <segue reference="N7M-Ya-An6"/>
+        <segue reference="BK7-1K-Omx"/>
+        <segue reference="kar-C9-Thb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="btn1" width="1600" height="1600"/>
