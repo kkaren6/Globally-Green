@@ -114,22 +114,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZu-fm-b8s">
-                                <rect key="frame" x="29" y="336" width="356" height="102"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="   ">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="20" name="Helvetica-Light"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kiz-BL-YjI">
-                                <rect key="frame" x="81" y="484" width="110" height="103"/>
+                                <rect key="frame" x="82" y="535" width="110" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.27284777160000001" green="0.29464554790000003" blue="0.2327575982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -148,7 +134,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1b1-vm-JhE">
-                                <rect key="frame" x="223" y="484" width="110" height="103"/>
+                                <rect key="frame" x="222" y="535" width="110" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.27284777160000001" green="0.29464554790000003" blue="0.2327575982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -166,6 +152,20 @@
                                     <action selector="hardBtn:" destination="Si9-Eg-mSy" eventType="touchUpInside" id="knp-ml-WaD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZu-fm-b8s">
+                                <rect key="frame" x="29" y="316" width="356" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="   ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="Helvetica-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vl8-Vs-z9R"/>
                         <color key="backgroundColor" red="0.9882352941176471" green="0.95686274509803915" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
@@ -521,7 +521,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="tSL-v9-yWa"/>
                     <connections>
-                        <outlet property="quote" destination="8Pu-kC-arx" id="zhM-mb-cEO"/>
+                        <outlet property="quoteBox" destination="8Pu-kC-arx" id="521-BE-pgZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -835,12 +835,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MCq-SE-ePE"/>
-        <segue reference="5Ps-fP-9W3"/>
-        <segue reference="C6H-Me-RwL"/>
-        <segue reference="2XZ-Pg-4nU"/>
-        <segue reference="OWF-bn-Ouv"/>
-        <segue reference="TGr-Rh-Gff"/>
+        <segue reference="cYl-ak-GJn"/>
+        <segue reference="oIl-ub-Fwk"/>
+        <segue reference="anF-8B-nVn"/>
+        <segue reference="UbZ-eh-z8E"/>
+        <segue reference="waJ-xb-PCk"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="btn1" width="1600" height="1600"/>
