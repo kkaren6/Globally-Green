@@ -39,7 +39,7 @@
                                         <attributes>
                                             <font key="NSFont" size="18" name="Courier"/>
                                             <font key="NSOriginalFont" size="18" name="Courier"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -120,8 +120,9 @@
                                 <attributedString key="attributedText">
                                     <fragment content="   ">
                                         <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="20" name="Helvetica-Light"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -328,7 +329,7 @@
                                 <color key="textColor" red="0.16598703632920242" green="0.19066334734059343" blue="0.13058510721861225" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="quote" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pu-kC-arx">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pu-kC-arx">
                                 <rect key="frame" x="76" y="277" width="262" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -533,7 +534,7 @@
         <segue reference="cYl-ak-GJn"/>
         <segue reference="oIl-ub-Fwk"/>
         <segue reference="anF-8B-nVn"/>
-        <segue reference="BK7-1K-Omx"/>
+        <segue reference="UbZ-eh-z8E"/>
         <segue reference="waJ-xb-PCk"/>
     </inferredMetricsTieBreakers>
     <resources>
