@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8838A9D926AA56BD00CE2B62 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838A9D826AA56BD00CE2B62 /* InfoViewController.swift */; };
 		A88435A926A896FD009F35E7 /* DailyChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88435A826A896FD009F35E7 /* DailyChallengeViewController.swift */; };
 		A88435AB26A89B41009F35E7 /* quizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88435AA26A89B41009F35E7 /* quizViewController.swift */; };
 		A88435AD26A89DD8009F35E7 /* moreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88435AC26A89DD8009F35E7 /* moreInfoViewController.swift */; };
@@ -26,7 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8838A9D826AA56BD00CE2B62 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		A88435A826A896FD009F35E7 /* DailyChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeViewController.swift; sourceTree = "<group>"; };
 		A88435AA26A89B41009F35E7 /* quizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizViewController.swift; sourceTree = "<group>"; };
 		A88435AC26A89DD8009F35E7 /* moreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreInfoViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 				A8D80BF026A7569C00A9EBBA /* LaunchScreen.storyboard */,
 				A8D80BF326A7569C00A9EBBA /* Info.plist */,
 				A8D80BEB26A7569B00A9EBBA /* Globally_Green.xcdatamodeld */,
-				8838A9D826AA56BD00CE2B62 /* InfoViewController.swift */,
 			);
 			path = "Globally Green";
 			sourceTree = "<group>";
@@ -176,7 +173,6 @@
 				A88435AF26A8A081009F35E7 /* picGalleryViewController.swift in Sources */,
 				A8D80BE526A7569B00A9EBBA /* SceneDelegate.swift in Sources */,
 				A88435A926A896FD009F35E7 /* DailyChallengeViewController.swift in Sources */,
-				8838A9D926AA56BD00CE2B62 /* InfoViewController.swift in Sources */,
 				A88435B326A9C927009F35E7 /* quiz3ViewController.swift in Sources */,
 				A88435B126A9C912009F35E7 /* quiz2ViewController.swift in Sources */,
 				A88435AB26A89B41009F35E7 /* quizViewController.swift in Sources */,
