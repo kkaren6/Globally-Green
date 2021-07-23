@@ -20,7 +20,7 @@ class quiz3ViewController: UIViewController {
     
     
     @IBAction func button2Tapped(_ sender: UIButton) {
-        popUpInfo2.text = "you got this!"
+        popUpInfo2.text = "You got this!"
     }
     
     @IBAction func correctButton2(_ sender: UIButton) {

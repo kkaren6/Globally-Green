@@ -16,21 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h9U-wS-yVO">
-                                <rect key="frame" x="117" y="151" width="180" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="YOUR DAILY CHALLENGE">
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="28" name="Helvetica-Light"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apK-b2-yuw">
                                 <rect key="frame" x="83" y="275" width="249" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -166,6 +151,21 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h9U-wS-yVO">
+                                <rect key="frame" x="117" y="177" width="180" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="YOUR DAILY CHALLENGE">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="28" name="Helvetica-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vl8-Vs-z9R"/>
                         <color key="backgroundColor" red="0.9882352941176471" green="0.95686274509803915" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
@@ -372,8 +372,8 @@
                                     <segue destination="P2N-gy-ZVJ" kind="show" id="4ZM-4k-J6f"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62c-KB-34A">
-                                <rect key="frame" x="147" y="603" width="120" height="64"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62c-KB-34A">
+                                <rect key="frame" x="147" y="603" width="121" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -468,7 +468,7 @@
                                     <segue destination="aRI-kt-ZUR" kind="show" id="iTV-gy-AO5"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LvD-Ja-62c">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LvD-Ja-62c">
                                 <rect key="frame" x="135" y="606" width="145" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -665,7 +665,7 @@
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment>
-                                                            <mutableString key="content">Taken in January 2020, known as the Black Summer, massive bushfires affected a 3,000 square mile area of New South Wales, Australia. The massive burn accounted for just a portion of the 38,000 square miles that had already been engulfed since the fires had started in September. This coastal area of the country contains eucalyptus trees, which release volatile oils when burned, thereby creating massive embers that can quickly jump to other areas of the forest. Climate conditions have not helped matters – the warmest year in Australian history combined with lowest rainfall since 1900 created the dry conditions for the blaze. With 500 million animals estimated to have been killed when this photo was captured, the fires continued to devastate wildlife and cause unfathomable destruction until May 2020, forcing many to flee their homes. /// Image by the European Space Agency</mutableString>
+                                                            <string key="content">Taken in January 2020, known as the Black Summer, massive bushfires affected a 3,000 square mile area of New South Wales, Australia. The massive burn accounted for just a portion of the 38,000 square miles that had already been engulfed since the fires had started in September. This coastal area of the country contains eucalyptus trees, which release volatile oils when burned, thereby creating massive embers that can quickly jump to other areas of the forest. Climate conditions have not helped matters – the warmest year in Australian history combined with lowest rainfall since 1900 created the dry conditions for the blaze. With 500 million animals estimated to have been killed when this photo was captured, the fires continued to devastate wildlife and cause unfathomable destruction until May 2020, forcing many to flee their homes. /// Image by the European Space Agency</string>
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <color key="NSColor" red="0.14901961386203766" green="0.14901961386203766" blue="0.14901961386203766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -937,7 +937,7 @@
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment>
-                                                            <mutableString key="content">From January to July of 2020, massive wildfires blazed through Siberia, Russia, exacerbated by record-breaking heat waves in the region. An estimated 47 million acres (19 million hectares) of forests and fields burned, which is an area larger than the nation of Greece. Wildfires in Siberia have become annual occurrences; however, the extent of last year's fires have heightened concerns among environmentalists about the accelerated melting of the Arctic. In the Krasnoyarsk region, where these images were captured, towns well north of the Arctic Circle have reported high temperatures above 70 degrees Fahrenheit. /// Imagery by Julia Petrenko / Greenpeace</mutableString>
+                                                            <string key="content">From January to July of 2020, massive wildfires blazed through Siberia, Russia, exacerbated by record-breaking heat waves in the region. An estimated 47 million acres (19 million hectares) of forests and fields burned, which is an area larger than the nation of Greece. Wildfires in Siberia have become annual occurrences; however, the extent of last year's fires have heightened concerns among environmentalists about the accelerated melting of the Arctic. In the Krasnoyarsk region, where these images were captured, towns well north of the Arctic Circle have reported high temperatures above 70 degrees Fahrenheit. /// Imagery by Julia Petrenko / Greenpeace</string>
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <color key="NSColor" red="0.14901961386203766" green="0.14901961386203766" blue="0.14901961386203766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1201,8 +1201,8 @@
                                     <segue destination="9Dl-Zj-IFH" kind="show" id="MCq-SE-ePE"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQn-KY-gVY">
-                                <rect key="frame" x="147" y="587" width="118" height="63"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQn-KY-gVY">
+                                <rect key="frame" x="147" y="587" width="121" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1241,15 +1241,15 @@
                                     <segue destination="dfp-UU-U7g" kind="show" id="OWF-bn-Ouv"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIv-AE-bEO">
-                                <rect key="frame" x="93" y="328" width="275" height="87"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Dp-9R-5Ug">
+                                <rect key="frame" x="129" y="423" width="156" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Dp-9R-5Ug">
-                                <rect key="frame" x="129" y="475" width="156" height="85"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIv-AE-bEO">
+                                <rect key="frame" x="70" y="328" width="275" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1271,11 +1271,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ESP-2G-20D"/>
-        <segue reference="oIl-ub-Fwk"/>
-        <segue reference="N7M-Ya-An6"/>
-        <segue reference="BK7-1K-Omx"/>
-        <segue reference="kar-C9-Thb"/>
+        <segue reference="cYl-ak-GJn"/>
+        <segue reference="lBb-0l-0Sr"/>
+        <segue reference="UH4-Yv-KcJ"/>
+        <segue reference="kvd-nS-ulX"/>
+        <segue reference="hB3-la-JxM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="GG_10" width="1080" height="1145"/>
