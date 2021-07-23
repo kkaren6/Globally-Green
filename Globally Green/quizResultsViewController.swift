@@ -16,7 +16,7 @@ class quizResultsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        finalScore.text = "you got \(numberCorrect) correct out of 3!"
+        finalScore.text = "You got \(numberCorrect) out of 3 correct!"
         
         if numberCorrect == 0 {
             message.text = "Better Luck Next Time"
