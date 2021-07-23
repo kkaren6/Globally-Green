@@ -511,7 +511,7 @@
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="19"/>
                                 <state key="normal" title="QUIZ" backgroundImage="btn4"/>
                                 <connections>
-                                    <segue destination="dfp-UU-U7g" kind="show" id="DgZ-02-Vlk"/>
+                                    <segue destination="dfp-UU-U7g" kind="show" id="2W6-vm-HaN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUZ-Uz-NYk">
@@ -519,12 +519,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="19"/>
                                 <state key="normal" title="INSPIRE" backgroundImage="btn3"/>
+                                <connections>
+                                    <segue destination="c2J-Of-NeK" kind="show" id="PgA-vj-PDI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qx2-30-u5f">
                                 <rect key="frame" x="231" y="444" width="121" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="19"/>
                                 <state key="normal" title="EXPLORE" backgroundImage="btn2"/>
+                                <connections>
+                                    <segue destination="xgX-JY-8mU" kind="show" id="3Jr-RD-ODf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdK-WZ-Sox">
                                 <rect key="frame" x="62" y="444" width="121" height="121"/>
@@ -532,7 +538,7 @@
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="19"/>
                                 <state key="normal" title="CHALLENGE" backgroundImage="btn1"/>
                                 <connections>
-                                    <segue destination="Si9-Eg-mSy" kind="show" id="waJ-xb-PCk"/>
+                                    <segue destination="Si9-Eg-mSy" kind="show" id="u2d-gg-mX3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GLOBALLY GREEN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nul-gI-Q4R">
@@ -672,7 +678,7 @@
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment>
-                                                            <mutableString key="content">In January 2020, massive bushfires affected a 3,000 square mile area of New South Wales, Australia. The massive burn accounts for just a portion of the 38,000 square miles that had already been engulfed since the fires started in September. This coastal area of the country contains eucalyptus trees, which release volatile oils when burned, thereby creating massive embers that can quickly jump to other areas of the forest. Climate conditions have not helped matters – the warmest year in Australian history combined with lowest rainfall since 1900 created the dry conditions for the blaze. With 500 million animals estimated to have been killed so far, the fires continue to devastate wildlife and cause unfathomable destruction, forcing many to flee their homes. /// Image by the European Space Agency</mutableString>
+                                                            <string key="content">In January 2020, massive bushfires affected a 3,000 square mile area of New South Wales, Australia. The massive burn accounts for just a portion of the 38,000 square miles that had already been engulfed since the fires started in September. This coastal area of the country contains eucalyptus trees, which release volatile oils when burned, thereby creating massive embers that can quickly jump to other areas of the forest. Climate conditions have not helped matters – the warmest year in Australian history combined with lowest rainfall since 1900 created the dry conditions for the blaze. With 500 million animals estimated to have been killed so far, the fires continue to devastate wildlife and cause unfathomable destruction, forcing many to flee their homes. /// Image by the European Space Agency</string>
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <color key="NSColor" red="0.14901961386203766" green="0.14901961386203766" blue="0.14901961386203766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -788,7 +794,7 @@
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment>
-                                                            <mutableString key="content">Waste ponds can be seen at the Athabasca oil sands in Canada. The area contains the largest known deposits of bitumen on Earth. Bitumen is a semi-solid form of crude oil that naturally occurs as a mixture of sand, clay, and water. The additional energy required to mine and then remove the sand from the bitumen leads to the release of more carbon emissions than in any other form of oil production. Extraction takes place by injecting hot water into deep wells so the sands liquefy and can be pumped up to the surface. This waste pond is roughly four square miles (10 square kilometers). /// Created by </mutableString>
+                                                            <string key="content">Waste ponds can be seen at the Athabasca oil sands in Canada. The area contains the largest known deposits of bitumen on Earth. Bitumen is a semi-solid form of crude oil that naturally occurs as a mixture of sand, clay, and water. The additional energy required to mine and then remove the sand from the bitumen leads to the release of more carbon emissions than in any other form of oil production. Extraction takes place by injecting hot water into deep wells so the sands liquefy and can be pumped up to the surface. This waste pond is roughly four square miles (10 square kilometers). /// Created by </string>
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <color key="NSColor" red="0.14901961386203766" green="0.14901961386203766" blue="0.14901961386203766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1041,6 +1047,18 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GENERAL INFO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnn-8l-woe">
+                                <rect key="frame" x="20" y="103" width="312" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="42"/>
+                                <color key="textColor" red="0.1659870363" green="0.19066334730000001" blue="0.13058510719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mVi-sN-xdV">
+                                <rect key="frame" x="20" y="173" width="374" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kW4-wW-12m"/>
                         <color key="backgroundColor" red="0.9882352941176471" green="0.95686274509803915" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
@@ -1052,6 +1070,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Ut2-2i-19H"/>
                     <connections>
+                        <outlet property="tableView" destination="mVi-sN-xdV" id="04P-zt-TVP"/>
                         <outletCollection property="pagesCollection3" destination="vnU-Iy-YLH" collectionClass="NSMutableArray" id="Akm-hH-KM2"/>
                         <outletCollection property="pagesCollection3" destination="aYG-uZ-1U5" collectionClass="NSMutableArray" id="ER5-KN-1SM"/>
                         <outletCollection property="pagesCollection3" destination="Xyl-s6-mB4" collectionClass="NSMutableArray" id="T8v-oF-rjm"/>
@@ -1060,7 +1079,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EAh-0u-9FX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="901" y="80"/>
+            <point key="canvasLocation" x="900.00000000000011" y="79.6875"/>
         </scene>
         <!--Quiz3 View Controller-->
         <scene sceneID="Uhh-Z3-q2j">
@@ -1210,9 +1229,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="ESP-2G-20D"/>
         <segue reference="lBb-0l-0Sr"/>
-        <segue reference="N7M-Ya-An6"/>
-        <segue reference="BK7-1K-Omx"/>
-        <segue reference="kar-C9-Thb"/>
+        <segue reference="UH4-Yv-KcJ"/>
+        <segue reference="kvd-nS-ulX"/>
+        <segue reference="hB3-la-JxM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="GG_10" width="1080" height="1145"/>
