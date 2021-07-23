@@ -67,6 +67,24 @@ class picGalleryViewController: UIViewController {
         caption4Tapped.isHidden = true
     }
     
+    //photo group 5
+    @IBOutlet var GG_11Tapped: UIButton!
+    @IBAction func GG_11Tapped(_ sender: Any) {
+        GG_12Tapped.isHidden = false
+        GG_11Tapped.isHidden = true
+    }
+    @IBOutlet var GG_12Tapped: UIButton!
+    @IBAction func GG_12Tapped(_ sender: Any) {
+        caption5Tapped.isHidden = false
+        GG_12Tapped.isHidden = true
+    }
+    @IBOutlet var caption5Tapped: UIButton!
+    @IBAction func caption5Tapped(_ sender: Any) {
+        GG_11Tapped.isHidden = false
+        caption5Tapped.isHidden = true
+    }
+    
+    
     
     
     @IBOutlet var pageCollection4: [UIButton]!
@@ -83,6 +101,9 @@ class picGalleryViewController: UIViewController {
         caption3Tapped.isHidden = true
         
         caption4Tapped.isHidden = true
+        
+        GG_12Tapped.isHidden = true
+        caption5Tapped.isHidden = true
     }
     
     @IBAction func handleSelection4(_ sender: UIButton) {

@@ -574,7 +574,7 @@
             <objects>
                 <viewController id="c2J-Of-NeK" customClass="picGalleryViewController" customModule="Globally_Green" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nRg-Nf-eoR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2246"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="43t-iq-Obk">
@@ -636,27 +636,14 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZS4-3y-NyS">
-                                <rect key="frame" x="0.0" y="50" width="414" height="1096"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZS4-3y-NyS">
+                                <rect key="frame" x="0.0" y="50" width="414" height="2246"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ks2-uy-XWm">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2296"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ks2-uy-XWm">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2246"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhR-kv-nt9">
-                                                <rect key="frame" x="56" y="40" width="303" height="18"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Click each image to see more">
-                                                        <attributes>
-                                                            <font key="NSFont" size="18" name="Courier"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-MQ-E10">
-                                                <rect key="frame" x="55" y="115" width="304" height="362"/>
+                                                <rect key="frame" x="55" y="98" width="304" height="362"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button" image="GG_3"/>
                                                 <connections>
@@ -664,7 +651,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4r-Qg-igw">
-                                                <rect key="frame" x="55" y="115" width="304" height="362"/>
+                                                <rect key="frame" x="55" y="98" width="304" height="362"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button" image="GG_4"/>
                                                 <connections>
@@ -672,15 +659,15 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ljQ-Zx-RH5">
-                                                <rect key="frame" x="54" y="115" width="305" height="362"/>
+                                                <rect key="frame" x="54" y="98" width="305" height="362"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment>
-                                                            <string key="content">In January 2020, massive bushfires affected a 3,000 square mile area of New South Wales, Australia. The massive burn accounts for just a portion of the 38,000 square miles that had already been engulfed since the fires started in September. This coastal area of the country contains eucalyptus trees, which release volatile oils when burned, thereby creating massive embers that can quickly jump to other areas of the forest. Climate conditions have not helped matters – the warmest year in Australian history combined with lowest rainfall since 1900 created the dry conditions for the blaze. With 500 million animals estimated to have been killed so far, the fires continue to devastate wildlife and cause unfathomable destruction, forcing many to flee their homes. /// Image by the European Space Agency</string>
+                                                            <mutableString key="content">Taken in January 2020, known as the Black Summer, massive bushfires affected a 3,000 square mile area of New South Wales, Australia. The massive burn accounted for just a portion of the 38,000 square miles that had already been engulfed since the fires had started in September. This coastal area of the country contains eucalyptus trees, which release volatile oils when burned, thereby creating massive embers that can quickly jump to other areas of the forest. Climate conditions have not helped matters – the warmest year in Australian history combined with lowest rainfall since 1900 created the dry conditions for the blaze. With 500 million animals estimated to have been killed when this photo was captured, the fires continued to devastate wildlife and cause unfathomable destruction until May 2020, forcing many to flee their homes. /// Image by the European Space Agency</mutableString>
                                                             <attributes>
-                                                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="NSBackgroundColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <color key="NSColor" red="0.14901961386203766" green="0.14901961386203766" blue="0.14901961386203766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <font key="NSFont" size="14" name="Helvetica"/>
                                                                 <real key="NSKern" value="0.0"/>
@@ -698,7 +685,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaP-Qg-6Dl">
-                                                <rect key="frame" x="54" y="513" width="305" height="363"/>
+                                                <rect key="frame" x="54" y="496" width="305" height="363"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button" image="GG_6"/>
                                                 <connections>
@@ -706,7 +693,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2e-Bb-Cag">
-                                                <rect key="frame" x="54" y="513" width="305" height="361"/>
+                                                <rect key="frame" x="54" y="496" width="305" height="361"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button" image="GG_7"/>
                                                 <connections>
@@ -714,13 +701,13 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SnD-9y-3d8">
-                                                <rect key="frame" x="54" y="513" width="305" height="361"/>
+                                                <rect key="frame" x="54" y="496" width="305" height="361"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment>
-                                                            <string key="content">This Juxtapose shows gradual drying up of the Puzhal Lake reservoir in Chennai, India, between February 2014 and August 2017. As one of four rain-fed reservoirs serving the city of nearly 5 million, Puzhal Lake's water levels have been sporadic in recent years due to infrequent rain. This summer, with the delayed arrival of monsoon season, Puzhal Lake is completely empty and water storage in all four lakes combined is less than one-hundredth of what it was in June of last year. /// Created by </string>
+                                                            <string key="content">These images show the gradual drying up of the Puzhal Lake reservoir in Chennai, India, between February 2014 and August 2017. As one of four rain-fed reservoirs serving the city of nearly 5 million, Puzhal Lake's water levels have been sporadic in recent years due to infrequent rain. This summer, with the delayed arrival of monsoon season, Puzhal Lake is completely empty and water storage in all four lakes combined is less than one-hundredth of what it was in June of last year. /// Created by </string>
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -781,7 +768,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfD-WE-91m">
-                                                <rect key="frame" x="54" y="924" width="305" height="360"/>
+                                                <rect key="frame" x="56" y="1267" width="304" height="359"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button" image="GG_28"/>
                                                 <connections>
@@ -789,7 +776,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6HZ-IP-iIU">
-                                                <rect key="frame" x="55" y="924" width="303" height="360"/>
+                                                <rect key="frame" x="55" y="1267" width="305" height="359"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
@@ -855,7 +842,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqK-q4-n5j">
-                                                <rect key="frame" x="54" y="1322" width="304" height="330"/>
+                                                <rect key="frame" x="56" y="898" width="304" height="330"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button" image="GG_10"/>
                                                 <connections>
@@ -863,12 +850,12 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NfC-hS-TyI">
-                                                <rect key="frame" x="54" y="1322" width="304" height="325"/>
+                                                <rect key="frame" x="56" y="898" width="304" height="330"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment>
-                                                            <string key="content">Ice melt in the Uummannaq Fjord in Greenland is seen in this Overview. The edges of Greenland’s ice sheet melt every summer; however, because the sheet is steepest at the edge, and flatter towards the middle, the warming of summer exposes a larger area of ice to melting every year. This particular Fjord is the second largest in eastern Greenland behind the Kangertittivaq Fjord. /// Created by </string>
+                                                            <string key="content">Ice melt in the Uummannaq Fjord in Greenland is seen in this aerial view. The edges of Greenland’s ice sheet melt every summer; however, because the sheet is steepest at the edge, and flatter towards the middle, the warming of summer exposes a larger area of ice to melting every year. This particular Fjord is the second largest in eastern Greenland behind the Kangertittivaq Fjord. /// Created by </string>
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <color key="NSColor" red="0.14901961386203766" green="0.14901961386203766" blue="0.14901961386203766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -928,6 +915,60 @@
                                                     <action selector="caption4Tapped:" destination="c2J-Of-NeK" eventType="touchUpInside" id="kHc-9d-FaG"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vrt-B1-HHz">
+                                                <rect key="frame" x="55" y="1668" width="304" height="362"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="GG_11"/>
+                                                <connections>
+                                                    <action selector="GG_11Tapped:" destination="c2J-Of-NeK" eventType="touchUpInside" id="ycP-p2-970"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwi-wI-pRt">
+                                                <rect key="frame" x="56" y="1667" width="306" height="365"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="GG_12"/>
+                                                <connections>
+                                                    <action selector="GG_12Tapped:" destination="c2J-Of-NeK" eventType="touchUpInside" id="qb3-Hk-MA4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f4a-Ml-EYW">
+                                                <rect key="frame" x="54" y="1669" width="306" height="365"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment>
+                                                            <mutableString key="content">From January to July of 2020, massive wildfires blazed through Siberia, Russia, exacerbated by record-breaking heat waves in the region. An estimated 47 million acres (19 million hectares) of forests and fields burned, which is an area larger than the nation of Greece. Wildfires in Siberia have become annual occurrences; however, the extent of last year's fires have heightened concerns among environmentalists about the accelerated melting of the Arctic. In the Krasnoyarsk region, where these images were captured, towns well north of the Arctic Circle have reported high temperatures above 70 degrees Fahrenheit. /// Imagery by Julia Petrenko / Greenpeace</mutableString>
+                                                            <attributes>
+                                                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="NSColor" red="0.14901961386203766" green="0.14901961386203766" blue="0.14901961386203766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.14901961386203766" green="0.14901961386203766" blue="0.14901961386203766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="caption5Tapped:" destination="c2J-Of-NeK" eventType="touchUpInside" id="FDh-5P-8ry"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Pr-7d-6dC">
+                                                <rect key="frame" x="63" y="34" width="286" height="17"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Click each image to see more">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="Courier"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.9882352941176471" green="0.95686274509803915" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -955,9 +996,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PGx-4K-k6X"/>
-                    <size key="freeformSize" width="414" height="1200"/>
+                    <size key="freeformSize" width="414" height="2300"/>
                     <connections>
                         <outlet property="GG_10Tapped" destination="qqK-q4-n5j" id="tec-XB-zVl"/>
+                        <outlet property="GG_11Tapped" destination="Vrt-B1-HHz" id="rZX-ER-dPU"/>
+                        <outlet property="GG_12Tapped" destination="lwi-wI-pRt" id="lNW-Eu-aae"/>
                         <outlet property="GG_28Tapped" destination="MfD-WE-91m" id="Dgw-qO-GnC"/>
                         <outlet property="GG_3Tapped" destination="8OI-MQ-E10" id="bhm-K3-OG2"/>
                         <outlet property="GG_4Tapped" destination="B4r-Qg-igw" id="MEy-k4-Ttx"/>
@@ -967,6 +1010,7 @@
                         <outlet property="caption2Tapped" destination="SnD-9y-3d8" id="x3m-ad-jId"/>
                         <outlet property="caption3Tapped" destination="6HZ-IP-iIU" id="9Fv-QE-yDh"/>
                         <outlet property="caption4Tapped" destination="NfC-hS-TyI" id="HhF-HA-oGv"/>
+                        <outlet property="caption5Tapped" destination="f4a-Ml-EYW" id="705-1A-CVR"/>
                         <outletCollection property="pageCollection4" destination="15c-wN-7yD" collectionClass="NSMutableArray" id="U9j-bx-RAt"/>
                         <outletCollection property="pageCollection4" destination="eeD-Mm-dSx" collectionClass="NSMutableArray" id="w5L-St-j5d"/>
                         <outletCollection property="pageCollection4" destination="J6Z-Y7-Bos" collectionClass="NSMutableArray" id="Hg0-IZ-VuX"/>
@@ -975,7 +1019,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GSx-xI-6l3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="95.652173913043484" y="789.50892857142856"/>
+            <point key="canvasLocation" x="95.652173913043484" y="1226.7857142857142"/>
         </scene>
         <!--More Info View Controller-->
         <scene sceneID="cgZ-IV-HsC">
@@ -1228,13 +1272,15 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="ESP-2G-20D"/>
-        <segue reference="lBb-0l-0Sr"/>
-        <segue reference="UH4-Yv-KcJ"/>
-        <segue reference="kvd-nS-ulX"/>
-        <segue reference="hB3-la-JxM"/>
+        <segue reference="oIl-ub-Fwk"/>
+        <segue reference="N7M-Ya-An6"/>
+        <segue reference="BK7-1K-Omx"/>
+        <segue reference="kar-C9-Thb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="GG_10" width="1080" height="1145"/>
+        <image name="GG_11" width="1080" height="1350"/>
+        <image name="GG_12" width="1080" height="1349"/>
         <image name="GG_28" width="1080" height="1350"/>
         <image name="GG_3" width="1080" height="1350"/>
         <image name="GG_4" width="1080" height="1350"/>
