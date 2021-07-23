@@ -13,7 +13,8 @@ class quizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        numberCorrect = 0
         // Do any additional setup after loading the view.
     }
     
